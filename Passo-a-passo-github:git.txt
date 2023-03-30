@@ -1,0 +1,19 @@
+ ***Passo a passo para criação de um repositório, atualizando e criando através do git.
+
+1- Para criar um repositório é preciso estar logado no GitHub.
+2- Após logar, clica em new repository, insere um nome para o repositório.(de acordo com o projeto que irá ser desenvolvido)
+3- Inserir descrição é opcional, visto que ajuda a introduzir e resumir do que se trata o repositório.
+4- É interessante deixar o repositório sempre público para que outros desenvolvedores utilizem e atualizem, e adicionar README também é opcional, visto que é uma forma interessante de introduzir e deixar um resumo detalhado do que esta sendo adicionado no repositório. (Uma especie de sumário).
+    
+    OBS: O README fica em extensão Markdown, ou seja, é possível alterar fonte, tamanho, negrito e etc de acordo com comandos e também é possível editar esse readme direto no GitHub, porém ao fazer uma edição é necessário realizar o commit da alteração realizada, para que seja atualizado da forma correta.
+
+5- Com isso já se torna possível copiar o URL para clonar na máquina local e realizar alterações e adicionar o que o desenvolvedor quiser, sendo 3 opções de copia, URL comum, com chave ssh que evita ter que ficar colocando senha e uma nova CLI.
+6- Iniciar o terminal no git bash e ir ate ao diretório que deseja inserir o repositório.
+7- com o git bash no diretório em questão, colocar no terminal "git clone (URL copiado)"e dar enter, para criar a pasta do repositório.
+8- sendo possível agora adicionar arquivos e alterar o que for necessário.
+
+    OBS: utilizar o comando cd + nome da pasta, para navegar para as pastas e o comando ls para verificar o que possui dentro da pasta.
+
+9- Após realizar as alterações ou criar novas pastas e novos documentos, é necessário fazer a atualização do repositório no git hub. Para isso ao usar o comando git status seja informado que possui um novo arquivo que não esta commitado.
+10- com isso deve usar o comando git add* (para adicionar tudo que não estiver adicionado dentro da pasta e posteriormente git commit -m "comentário relevante sobre atualização feita".
+11- Agora existe um commit local e para mandar para o GitHub tem que usar o comando git push Origin main (ou master) e será atualizado o repositório no GitHub.
